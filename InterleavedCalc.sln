@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterleavedCalc.Types.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterleavedCalc.Benchmarks", "src\InterleavedCalc.Benchmarks\InterleavedCalc.Benchmarks.csproj", "{FF1151FA-EB68-4419-9F76-9A71918271F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterleavedCalc.RealWorkloads.Benchmark", "src\InterleavedCalc.RealWorkloads.Benchmark\InterleavedCalc.RealWorkloads.Benchmark.csproj", "{F2C4078D-CC24-4375-8B9E-8A0FEE3F034C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,10 +42,15 @@ Global
 		{FF1151FA-EB68-4419-9F76-9A71918271F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF1151FA-EB68-4419-9F76-9A71918271F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF1151FA-EB68-4419-9F76-9A71918271F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C4078D-CC24-4375-8B9E-8A0FEE3F034C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C4078D-CC24-4375-8B9E-8A0FEE3F034C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C4078D-CC24-4375-8B9E-8A0FEE3F034C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C4078D-CC24-4375-8B9E-8A0FEE3F034C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C928ADBE-5007-4360-AB83-E677529BF5D6} = {1869978E-461E-4CAF-AA60-5132E5436969}
 		{ECA64B67-E35B-4A91-ADC9-F2A87652314A} = {1869978E-461E-4CAF-AA60-5132E5436969}
 		{FF1151FA-EB68-4419-9F76-9A71918271F7} = {1869978E-461E-4CAF-AA60-5132E5436969}
+		{F2C4078D-CC24-4375-8B9E-8A0FEE3F034C} = {1869978E-461E-4CAF-AA60-5132E5436969}
 	EndGlobalSection
 EndGlobal
