@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A1859584
 		src\Directory.Packages.props = src\Directory.Packages.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterleavedCalc.Types.Tests", "src\InterleavedCalc.Types.Tests\InterleavedCalc.Types.Tests.csproj", "{ECA64B67-E35B-4A91-ADC9-F2A87652314A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +30,13 @@ Global
 		{C928ADBE-5007-4360-AB83-E677529BF5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C928ADBE-5007-4360-AB83-E677529BF5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C928ADBE-5007-4360-AB83-E677529BF5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA64B67-E35B-4A91-ADC9-F2A87652314A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA64B67-E35B-4A91-ADC9-F2A87652314A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA64B67-E35B-4A91-ADC9-F2A87652314A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA64B67-E35B-4A91-ADC9-F2A87652314A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C928ADBE-5007-4360-AB83-E677529BF5D6} = {1869978E-461E-4CAF-AA60-5132E5436969}
+		{ECA64B67-E35B-4A91-ADC9-F2A87652314A} = {1869978E-461E-4CAF-AA60-5132E5436969}
 	EndGlobalSection
 EndGlobal
